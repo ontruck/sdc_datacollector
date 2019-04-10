@@ -29,6 +29,7 @@ public final class TensorTypeSupporter {
           .put(DataType.INT64, new LongTensorTypeSupport())
           .put(DataType.FLOAT, new FloatTensorTypeSupport())
           .put(DataType.DOUBLE, new DoubleTensorTypeSupport())
+          .put(DataType.STRING, new StringTensorTypeSupport())
           .build();
 
   private TensorTypeSupporter() {
